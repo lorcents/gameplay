@@ -67,8 +67,8 @@ let questions = [
         imgSrc : "img/ass.jpeg",
         choiceA : "Siri",
         choiceB : "Google Assistant",
-        choiceC : "14",
-        correct : "alexa"
+        choiceC : "alexas",
+        correct : "B"
     },{
         question : "Not my thing?",
         imgSrc : "img/hobby.png",
