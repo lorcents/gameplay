@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Game play</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="materialize.css">
+</head>
+<body>
+    <div id="container">
+        <div id="start">How well do you know  Ian?<br><img src="img/ian.JPG" width="150" height="200"> </div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div><hr>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div><hr>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div><hr>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
